@@ -15,7 +15,7 @@ body {
 
 .navbar {
   width: 100%;
-  background-color: rgb(58, 23, 0) !important;
+  background-color: rgb(58, 23, 0, 0.8) !important;
   border-bottom: 3px rgb(51, 51, 51) solid;
   overflow-x: hidden;
 }
@@ -24,6 +24,7 @@ body {
   font-size: 14px;
   text-transform: uppercase;
   padding-left: 1rem !important;
+  opacity: 1;
 }
 
 .navbar .nav-item.active {
@@ -32,10 +33,12 @@ body {
 
 #nav-text-opacity2 {
   color: rgb(221, 160, 90);
+  opacity: 1;
 }
 
 #nav-text-opacity {
   color: rgb(221, 160, 90);
+  opacity: 1;
 }
 
 #showcase {
